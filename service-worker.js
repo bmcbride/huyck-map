@@ -27,7 +27,8 @@ workbox.precaching.precacheAndRoute([
   {url: 'assets/vendor/leaflet-1.7.1/leaflet.js', revision: '10.01.21.1'},
   {url: 'assets/vendor/leaflet-locatecontrol-0.74.0/L.Control.Locate.min.css', revision: '10.01.21.1'},
   {url: 'assets/vendor/leaflet-locatecontrol-0.74.0/L.Control.Locate.min.js', revision: '10.01.21.1'},
-  {url: 'assets/vendor/leaflet-mbtiles/Leaflet.TileLayer.MBTiles.js', revision: '10.01.21.1'}
+  {url: 'assets/vendor/leaflet-mbtiles/Leaflet.TileLayer.MBTiles.js', revision: '10.01.21.1'},
+  {url: 'data/trail_map.mbtiles', revision: '10.28.21.1'}
 ], {
   // Ignore all URL parameters.
   ignoreURLParametersMatching: [/.*/]
